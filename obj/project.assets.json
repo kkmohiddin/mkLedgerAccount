@@ -3940,11 +3940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Leger Application\\LedgerApplication\\LedgerApplication.csproj",
+      "projectUniqueName": "C:\\Users\\mohid\\source\\repos\\NewRepo\\LedgerApplication.csproj",
       "projectName": "LedgerApplication",
-      "projectPath": "D:\\Leger Application\\LedgerApplication\\LedgerApplication.csproj",
+      "projectPath": "C:\\Users\\mohid\\source\\repos\\NewRepo\\LedgerApplication.csproj",
       "packagesPath": "C:\\Users\\mohid\\.nuget\\packages\\",
-      "outputPath": "D:\\Leger Application\\LedgerApplication\\obj\\",
+      "outputPath": "C:\\Users\\mohid\\source\\repos\\NewRepo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

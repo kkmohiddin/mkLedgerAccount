@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MmU4NBR4HZ0=",
+  "dgSpecHash": "qmy6PalY2Uc=",
   "success": true,
-  "projectFilePath": "D:\\Leger Application\\LedgerApplication\\LedgerApplication.csproj",
+  "projectFilePath": "C:\\Users\\mohid\\source\\repos\\NewRepo\\LedgerApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohid\\.nuget\\packages\\azure.core\\1.41.0\\azure.core.1.41.0.nupkg.sha512",
     "C:\\Users\\mohid\\.nuget\\packages\\azure.identity\\1.12.1\\azure.identity.1.12.1.nupkg.sha512",
