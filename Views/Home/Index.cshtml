@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="py-4">
+    <div class="text-center mb-4">
+        <h1 class="display-5">Ledger Application</h1>
+        <p class="lead">Choose a module to get started.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Customers</h5>
+                    <p class="card-text flex-grow-1">Manage customer records and contacts.</p>
+                    <a asp-controller="Customers" asp-action="Index" class="btn btn-primary mt-3 align-self-start">Open Customers</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Sales</h5>
+                    <p class="card-text flex-grow-1">Create and manage sales and sale items.</p>
+                    <a asp-controller="Sales" asp-action="Index" class="btn btn-primary mt-3 align-self-start">Open Sales</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Invoices</h5>
+                    <p class="card-text flex-grow-1">Issue and view invoices for sales.</p>
+                    <a asp-controller="Invoices" asp-action="Index" class="btn btn-primary mt-3 align-self-start">Open Invoices</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Ledger</h5>
+                    <p class="card-text flex-grow-1">View ledger entries and balances.</p>
+                    <a asp-controller="LedgerEntries" asp-action="Index" class="btn btn-primary mt-3 align-self-start">Open Ledger</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Reports</h5>
+                    <p class="card-text flex-grow-1">Run financial and sales reports.</p>
+                    <a asp-controller="Reports" asp-action="Index" class="btn btn-primary mt-3 align-self-start">Open Reports</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
